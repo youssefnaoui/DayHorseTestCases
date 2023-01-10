@@ -2,7 +2,7 @@
 Library                 AppuimLibrary
 *** Test Cases ***
 open_Application        http://localhost:4723/wd/hub  platformName=android deviceName=b822e44c appPackage=com.example.myapplication appActivity=.MainActivity automationName=Uiautomator
-*** Test Cases ***
+
 #Add Horse and send to Stable
 # accessibility_id=HorseDay
 Click Element    accessibility_id=HorseDay
@@ -23,7 +23,7 @@ Click Element    accessibility_id=Þráinn frá Flagbjarnarholti
 # accessibility_id=Send to Stable
 Click Element    accessibility_id=Send to Stable
 
-*** Test Cases ***
+
 #Remove the horse from stable and Remove the horse
 
 # accessibility_id=HorseDay
